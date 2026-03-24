@@ -1,0 +1,29 @@
+/*esto es un comentario*/
+header{
+    text-align:center; /*centrar texto*/
+    background-color: bisque;/*este es un color de fondo*/
+}
+header:hover{ 
+    background-color:coral;
+}
+main{
+    background-color:lightgreen;
+}
+main:hover{
+    background-color:lime;
+}
+footer{
+    background-color:gold;
+}
+footer:hover{
+    background-color:yellow
+}
+h1{
+    color:darkgreen;/*cambia eñ color del texto*/
+}
+h2{
+    color:darkcyan;
+}
+p{
+    color:crimson;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--declara el tipo de documento. indica al navegador que usara HTML5-->
+<html lang="es">
+<!--elemento pricipal del documento html lang="es" indica que el contenido esta en "español" -->
+<head><!-- sección de configuracion del documento -->
+    <meta charset="UTF-8"><!--define la codificación de caracteres.
+    UTF-8 permite usar correctamente tildes, ñ, simbolos, etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hace que el sitio sea responsive.
+    permite que el diseño se adapte correctamente a celulares y tablets-->
+    <title>practicando HTML - img y video</title>
+    <!--titulo que aparece en el navegador-->
+    <meta name="author" content="Fernando Vásquez">
+    <!--indica quien creo el sitio Web-->
+    
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--conexión con hoja CSS de estilos-->
+</head>
+<body>
+    <header> <!--encabezado del documento-->
+        <h1>sitio multimedia personal</h1>
+    </header>
+    <hr> <!--crea una linea de división-->
+    <main> <!--sección principal del documento-->
+        <h2>mis datos:</h2>
+        <p>nombre:Fernando Vásquez<br> <!--salto de linea-->
+            curso:3°C
+        </p>
+        <hr>
+        <h2>galeria multimedia</h2>
+        <p>imagen de ejemplo</p>
+        <img src="static/images/imagen1.png" alt="primera imagen" width="300">
+        <img src="static/images/image2.png" alt="segunda imagen" width="300">
+        <img src="static/images/imagen3.png" alt="tercera imagen" width="300">
+        <hr>
+        <h2>videos</h2>
+        <video width="600" controls>
+            <source src="static/videos/video1.mp4" type="video/mp4">
+            <hr>
+            </video>
+            <video width="600" controls>
+            <source src="static/videos/video2.mp4" type="video/mp4">
+    </main>
+    <footer>
+        <p style="text-align:center">todos los derechos reservados
+            -<a href="https://randomlife-merch.creator-spring.com/">Más información</a> <!-- etiqueta <a> para vínculo-->
+        </p>
+    </footer>
+</body>
+</html>
