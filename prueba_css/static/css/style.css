@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor Principal Flex */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite envolver los elementos */
+    gap: 16px;
+    /* Separa las tarjetas de forma limpia */
+    width: 100%;
+    max-width: 1200px;
+    /* Ancho máximo del sitio */
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Tarjetas Fluidas */
+.tarjeta {
+    /* Crece si hay espacio extra */
+    flex-grow: 1;
+
+    /* Ancho base de referencia para 3 columnas en pantallas grandes */
+    flex-basis: calc(20% - 12.8px);
+
+    /* Punto de quiebre automático: si no hay 280px disponibles, salta de fila */
+    min-width: 180px;
+
+    /* Garantiza que no sobrepase pantallas más pequeñas que min-width */
+    width: min(100%, 100%);
+
+    /* Estilos visuales */
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+}
